@@ -12,6 +12,9 @@ and basic performance tests. You can find a copy of the resulting
 files in `res`, but if you run them by yourself they will be in `bin`
 (Please read the makefile for more details).
 
+Please note github seems to break svg files rendering, open them
+independently in your browser.
+
 To clone his repository correctly, use the following command
 ```
 git clone --recurse-submodules https://github.com/cylgom/mpiric.git
