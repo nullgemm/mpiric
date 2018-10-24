@@ -1,0 +1,44 @@
+<svg class="charter" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewbox="0 0 600 400">
+<defs><clipPath id="plot-area"><rect x="52.50" y="25.00" width="512.00" height="350.00"/>
+</clipPath></defs><line clip-path="url(#plot-area)"  x1="71.07" y1="25.00" x2="71.07" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="165.10" y1="25.00" x2="165.10" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="259.13" y1="25.00" x2="259.13" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="353.16" y1="25.00" x2="353.16" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="447.20" y1="25.00" x2="447.20" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="541.23" y1="25.00" x2="541.23" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="52.50" y1="323.23" x2="564.50" y2="323.23"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="52.50" y1="252.65" x2="564.50" y2="252.65"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="52.50" y1="182.07" x2="564.50" y2="182.07"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="52.50" y1="111.49" x2="564.50" y2="111.49"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="52.50" y1="40.91" x2="564.50" y2="40.91"  style="stroke: #ccc;stroke-width:0.50"/>
+<polyline clip-path="url(#plot-area)" style="fill:none; stroke:#db5f57; stroke-width:2.00;"  points="75.77,359.09 80.47,324.08 85.18,290.60 89.88,260.08 94.58,230.91 99.28,203.99 103.98,180.58 108.68,159.72 113.39,140.96 118.09,124.87 122.79,111.47 127.49,99.67 132.19,89.60 136.89,81.40 141.59,74.46 146.30,68.53 151.00,63.66 155.70,59.73 160.40,56.37 165.10,53.57 169.80,51.35 174.51,49.49 179.21,47.92 183.91,46.66 188.61,45.65 193.31,44.78 198.01,44.07 202.71,43.51 207.42,43.04 212.12,42.65 216.82,42.34 221.52,42.08 226.22,41.87 230.92,41.69 235.63,41.55 240.33,41.44 245.03,41.34 249.73,41.26 254.43,41.20 259.13,41.15 263.84,41.10 268.54,41.07 273.24,41.04 277.94,41.02 282.64,41.00 287.34,40.98 292.04,40.97 296.75,40.96 301.45,40.95 306.15,40.94 310.85,40.94 315.55,40.93 320.25,40.93 324.96,40.92 329.66,40.92 334.36,40.92 339.06,40.92 343.76,40.92 348.46,40.91 353.16,40.91 357.87,40.91 362.57,40.91 367.27,40.91 371.97,40.91 376.67,40.91 381.37,40.91 386.08,40.91 390.78,40.91 395.48,40.91 400.18,40.91 404.88,40.91 409.58,40.91 414.29,40.91 418.99,40.91 423.69,40.91 428.39,40.91 433.09,40.91 437.79,40.91 442.49,40.91 447.20,40.91 451.90,40.91 456.60,40.91 461.30,40.91 466.00,40.91 470.70,40.91 475.41,40.91 480.11,40.91 484.81,40.91 489.51,40.91 494.21,40.91 498.91,40.91 503.61,40.91 508.32,40.91 513.02,40.91 517.72,40.91 522.42,40.91 527.12,40.91 531.82,40.91 536.53,40.91 541.23,40.91 " /><polyline clip-path="url(#plot-area)" style="fill:none; stroke:#dbae57; stroke-width:2.00;" stroke-dasharray="5, 5" points="75.77,358.64 80.47,324.16 85.18,291.01 89.88,259.73 94.58,230.73 99.28,204.28 103.98,180.53 108.68,159.47 113.39,141.03 118.09,125.04 122.79,111.31 127.49,99.61 132.19,89.71 136.89,81.37 141.59,74.38 146.30,68.55 151.00,63.70 155.70,59.68 160.40,56.35 165.10,53.60 169.80,51.34 174.51,49.47 179.21,47.93 183.91,46.67 188.61,45.63 193.31,44.78 198.01,44.08 202.71,43.51 207.42,43.04 212.12,42.65 216.82,42.34 221.52,42.08 226.22,41.87 230.92,41.69 235.63,41.55 240.33,41.44 245.03,41.34 249.73,41.26 254.43,41.20 259.13,41.15 263.84,41.10 268.54,41.07 273.24,41.04 277.94,41.02 282.64,41.00 287.34,40.98 292.04,40.97 296.75,40.96 301.45,40.95 306.15,40.94 310.85,40.94 315.55,40.93 320.25,40.93 324.96,40.92 329.66,40.92 334.36,40.92 339.06,40.92 343.76,40.92 348.46,40.91 353.16,40.91 357.87,40.91 362.57,40.91 367.27,40.91 371.97,40.91 376.67,40.91 381.37,40.91 386.08,40.91 390.78,40.91 395.48,40.91 400.18,40.91 404.88,40.91 409.58,40.91 414.29,40.91 418.99,40.91 423.69,40.91 428.39,40.91 433.09,40.91 437.79,40.91 442.49,40.91 447.20,40.91 451.90,40.91 456.60,40.91 461.30,40.91 466.00,40.91 470.70,40.91 475.41,40.91 480.11,40.91 484.81,40.91 489.51,40.91 494.21,40.91 498.91,40.91 503.61,40.91 508.32,40.91 513.02,40.91 517.72,40.91 522.42,40.91 527.12,40.91 531.82,40.91 536.53,40.91 541.23,40.91 " /><rect  x="52.00" y="25.00" width="512.00" height="350.00" style="fill:none; fill-opacity:1.00; stroke:black; stroke-width:0.50;" />
+<line  x1="71.07" y1="376.00" x2="71.07" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="71.07" y="395.00" text-anchor="middle"  font-weight="regular">0</text>
+<line  x1="165.10" y1="376.00" x2="165.10" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="165.10" y="395.00" text-anchor="middle"  font-weight="regular">20.0</text>
+<line  x1="259.13" y1="376.00" x2="259.13" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="259.13" y="395.00" text-anchor="middle"  font-weight="regular">40.0</text>
+<line  x1="353.16" y1="376.00" x2="353.16" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="353.16" y="395.00" text-anchor="middle"  font-weight="regular">60.0</text>
+<line  x1="447.20" y1="376.00" x2="447.20" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="447.20" y="395.00" text-anchor="middle"  font-weight="regular">80.0</text>
+<line  x1="541.23" y1="376.00" x2="541.23" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="541.23" y="395.00" text-anchor="middle"  font-weight="regular"><tspan>1.0e<tspan  font-size="10" dy="-5" dx="1">2</tspan></tspan></text>
+<line  x1="46.50" y1="323.23" x2="51.50" y2="323.23"  style="stroke: black;stroke-width:1.00"/>
+<text  x="42.50" y="327.23" text-anchor="end"  font-weight="regular">0.2</text>
+<line  x1="46.50" y1="252.65" x2="51.50" y2="252.65"  style="stroke: black;stroke-width:1.00"/>
+<text  x="42.50" y="256.65" text-anchor="end"  font-weight="regular">0.4</text>
+<line  x1="46.50" y1="182.07" x2="51.50" y2="182.07"  style="stroke: black;stroke-width:1.00"/>
+<text  x="42.50" y="186.07" text-anchor="end"  font-weight="regular">0.6</text>
+<line  x1="46.50" y1="111.49" x2="51.50" y2="111.49"  style="stroke: black;stroke-width:1.00"/>
+<text  x="42.50" y="115.49" text-anchor="end"  font-weight="regular">0.8</text>
+<line  x1="46.50" y1="40.91" x2="51.50" y2="40.91"  style="stroke: black;stroke-width:1.00"/>
+<text  x="42.50" y="44.91" text-anchor="end"  font-weight="regular">1.0</text>
+<rect  x="454.50" y="35.00" width="100.00" height="36.00" style="fill:white; fill-opacity:0.50; stroke:#333; stroke-width:0.50;" />
+<defs><clipPath id="leg-area"><rect x="494.50" y="35.00" width="58.00" height="36.00"/>
+</clipPath></defs><line  x1="464.50" y1="46.00" x2="494.50" y2="46.00"  style="stroke: #db5f57;stroke-width:2.00"/>
+<text clip-path="url(#leg-area)"  x="524.50" y="50.00" text-anchor="middle"  font-weight="regular">mpiric</text>
+<line  x1="464.50" y1="61.00" x2="494.50" y2="61.00" stroke-dasharray="5, 5" style="stroke: #dbae57;stroke-width:2.00"/>
+<text clip-path="url(#leg-area)"  x="524.50" y="65.00" text-anchor="middle"  font-weight="regular">libm</text>
+</svg>
+

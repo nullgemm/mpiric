@@ -1,0 +1,29 @@
+<svg class="charter" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewbox="0 0 600 400">
+<defs><clipPath id="plot-area"><rect x="52.50" y="25.00" width="512.00" height="350.00"/>
+</clipPath></defs><line clip-path="url(#plot-area)"  x1="71.02" y1="25.00" x2="71.02" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="166.01" y1="25.00" x2="166.01" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="261.00" y1="25.00" x2="261.00" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="356.00" y1="25.00" x2="356.00" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="450.99" y1="25.00" x2="450.99" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<line clip-path="url(#plot-area)"  x1="545.98" y1="25.00" x2="545.98" y2="375.00"  style="stroke: #ccc;stroke-width:0.50"/>
+<polyline clip-path="url(#plot-area)" style="fill:none; stroke:#db5f57; stroke-width:2.00;"  points="75.77,-nan 80.52,-nan 85.27,-nan 90.02,-nan 94.77,-nan 99.52,-nan 104.27,-nan 109.02,-nan 113.77,-nan 118.52,-nan 123.27,-nan 128.02,-nan 132.77,-nan 137.52,-nan 142.27,-nan 147.02,-nan 151.77,-nan 156.51,-nan 161.26,-nan 166.01,-nan 170.76,-nan 175.51,-nan 180.26,-nan 185.01,-nan 189.76,-nan 194.51,-nan 199.26,-nan 204.01,-nan 208.76,-nan 213.51,-nan 218.26,-nan 223.01,-nan 227.76,-nan 232.51,-nan 237.26,-nan 242.01,-nan 246.76,-nan 251.51,-nan 256.26,-nan 261.00,-nan 265.75,-nan 270.50,-nan 275.25,-nan 280.00,-nan 284.75,-nan 289.50,-nan 294.25,-nan 299.00,-nan 303.75,-nan 308.50,-nan 313.25,-nan 318.00,-nan 322.75,-nan 327.50,-nan 332.25,-nan 337.00,-nan 341.75,-nan 346.50,-nan 351.25,-nan 356.00,-nan 360.74,-nan 365.49,-nan 370.24,-nan 374.99,-nan 379.74,-nan 384.49,-nan 389.24,-nan 393.99,-nan 398.74,-nan 403.49,-nan 408.24,-nan 412.99,-nan 417.74,-nan 422.49,-nan 427.24,-nan 431.99,-nan 436.74,-nan 441.49,-nan 446.24,-nan 450.99,-nan 455.74,-nan 460.49,-nan 465.23,-nan 469.98,-nan 474.73,-nan 479.48,-nan 484.23,-nan 488.98,-nan 493.73,-nan 498.48,-nan 503.23,-nan 507.98,-nan 512.73,-nan 517.48,-nan 522.23,-nan 526.98,-nan 531.73,-nan 536.48,-nan 541.23,-nan " /><polyline clip-path="url(#plot-area)" style="fill:none; stroke:#dbae57; stroke-width:2.00;" stroke-dasharray="5, 5" points="75.77,-nan 80.52,-nan 85.27,-nan 90.02,-nan 94.77,-nan 99.52,-nan 104.27,-nan 109.02,-nan 113.77,-nan 118.52,nan 123.27,nan 128.02,nan 132.77,nan 137.52,nan 142.27,nan 147.02,nan 151.77,nan 156.51,nan 161.26,nan 166.01,nan 170.76,nan 175.51,nan 180.26,nan 185.01,nan 189.76,nan 194.51,nan 199.26,nan 204.01,nan 208.76,nan 213.51,nan 218.26,nan 223.01,nan 227.76,nan 232.51,nan 237.26,nan 242.01,nan 246.76,nan 251.51,nan 256.26,nan 261.00,nan 265.75,nan 270.50,nan 275.25,nan 280.00,nan 284.75,nan 289.50,nan 294.25,nan 299.00,nan 303.75,nan 308.50,nan 313.25,nan 318.00,nan 322.75,nan 327.50,nan 332.25,nan 337.00,nan 341.75,nan 346.50,nan 351.25,nan 356.00,nan 360.74,nan 365.49,nan 370.24,nan 374.99,nan 379.74,nan 384.49,nan 389.24,nan 393.99,nan 398.74,nan 403.49,nan 408.24,nan 412.99,nan 417.74,nan 422.49,nan 427.24,nan 431.99,nan 436.74,nan 441.49,nan 446.24,nan 450.99,nan 455.74,nan 460.49,nan 465.23,nan 469.98,nan 474.73,nan 479.48,nan 484.23,nan 488.98,nan 493.73,nan 498.48,nan 503.23,nan 507.98,nan 512.73,nan 517.48,nan 522.23,nan 526.98,nan 531.73,nan 536.48,nan 541.23,nan " /><rect  x="52.00" y="25.00" width="512.00" height="350.00" style="fill:none; fill-opacity:1.00; stroke:black; stroke-width:0.50;" />
+<line  x1="71.02" y1="376.00" x2="71.02" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="71.02" y="395.00" text-anchor="middle"  font-weight="regular">0</text>
+<line  x1="166.01" y1="376.00" x2="166.01" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="166.01" y="395.00" text-anchor="middle"  font-weight="regular">20.0</text>
+<line  x1="261.00" y1="376.00" x2="261.00" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="261.00" y="395.00" text-anchor="middle"  font-weight="regular">40.0</text>
+<line  x1="356.00" y1="376.00" x2="356.00" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="356.00" y="395.00" text-anchor="middle"  font-weight="regular">60.0</text>
+<line  x1="450.99" y1="376.00" x2="450.99" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="450.99" y="395.00" text-anchor="middle"  font-weight="regular">80.0</text>
+<line  x1="545.98" y1="376.00" x2="545.98" y2="381.00"  style="stroke: black;stroke-width:1.00"/>
+<text  x="545.98" y="395.00" text-anchor="middle"  font-weight="regular"><tspan>1.0e<tspan  font-size="10" dy="-5" dx="1">2</tspan></tspan></text>
+<rect  x="454.50" y="35.00" width="100.00" height="36.00" style="fill:white; fill-opacity:0.50; stroke:#333; stroke-width:0.50;" />
+<defs><clipPath id="leg-area"><rect x="494.50" y="35.00" width="58.00" height="36.00"/>
+</clipPath></defs><line  x1="464.50" y1="46.00" x2="494.50" y2="46.00"  style="stroke: #db5f57;stroke-width:2.00"/>
+<text clip-path="url(#leg-area)"  x="524.50" y="50.00" text-anchor="middle"  font-weight="regular">mpiric</text>
+<line  x1="464.50" y1="61.00" x2="494.50" y2="61.00" stroke-dasharray="5, 5" style="stroke: #dbae57;stroke-width:2.00"/>
+<text clip-path="url(#leg-area)"  x="524.50" y="65.00" text-anchor="middle"  font-weight="regular">libm</text>
+</svg>
+
