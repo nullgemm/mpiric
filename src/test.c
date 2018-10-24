@@ -4,6 +4,10 @@
 #include <math.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <sys/time.h>
+
+#define BENCHMARK_RANGE 1000000.0
+#define BENCHMARK_RANGEF 1000000.0f
 
 // handles io during the plotting process
 void plot_begin(FILE** fd, const char* name)
@@ -12,6 +16,10 @@ void plot_begin(FILE** fd, const char* name)
 
 	snprintf(buf, 63, "%s.crt", name);
 	*fd = fopen(buf, "ab+");
+
+#ifdef BENCHMARK
+	printf("\n%s\n", name);
+#endif
 }
 
 void plot_end(FILE* fd, const char* name)
@@ -39,6 +47,95 @@ void crt_end(FILE* fd, bool mpiric)
 	fprintf(fd, " label %s\n", mpiric ? "mpiric" : "libm");
 }
 
+// benchmark
+void benchmarkf64(f64 (*f)(f64), bool mpiric)
+{
+	struct timeval time;
+	u64 time_present = 0;
+	u64 time_past = 0;
+	f64 total = 0;
+
+	gettimeofday(&time, NULL);
+	time_past = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	for (f64 i = 0.1; i<= BENCHMARK_RANGE; i += 0.1)
+	{
+		total += f(i);
+	}
+
+	gettimeofday(&time, NULL);
+	time_present = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	printf("%s", mpiric ? "mpiric: " : "libm:   ");
+	printf("%lf ns\n", (time_present - time_past) / BENCHMARK_RANGE * 1000.0);
+}
+
+void arg_benchmarkf64(f64 (*f)(f64, f64), bool mpiric, f64 x)
+{
+	struct timeval time;
+	u64 time_present = 0;
+	u64 time_past = 0;
+	f64 total = 0;
+
+	gettimeofday(&time, NULL);
+	time_past = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	for (f64 i = 0.1; i<= BENCHMARK_RANGE; i += 0.1)
+	{
+		total += f(i, x);
+	}
+
+	gettimeofday(&time, NULL);
+	time_present = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	printf("%s", mpiric ? "mpiric: " : "libm:   ");
+	printf("%lf ns\n", (time_present - time_past) / BENCHMARK_RANGE * 1000.0);
+}
+
+void benchmarkf32(f32 (*f)(f32), bool mpiric)
+{
+	struct timeval time;
+	u64 time_present = 0;
+	u64 time_past = 0;
+	f32 total = 0;
+
+	gettimeofday(&time, NULL);
+	time_past = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	for (f32 i = 0.1; i<= BENCHMARK_RANGEF; i += 0.1)
+	{
+		total += f(i);
+	}
+
+	gettimeofday(&time, NULL);
+	time_present = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	printf("%s", mpiric ? "mpiric: " : "libm:   ");
+	printf("%lf ns\n", (time_present - time_past) / BENCHMARK_RANGE * 1000.0);
+}
+
+void arg_benchmarkf32(f32 (*f)(f32, f32), bool mpiric, f32 x)
+{
+	struct timeval time;
+	u64 time_present = 0;
+	u64 time_past = 0;
+	f32 total = 0;
+
+	gettimeofday(&time, NULL);
+	time_past = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	for (f32 i = 0.1; i<= BENCHMARK_RANGEF; i += 0.1)
+	{
+		total += f(i, x);
+	}
+
+	gettimeofday(&time, NULL);
+	time_present = time.tv_usec + ((u64) 1000000) * time.tv_sec;
+
+	printf("%s", mpiric ? "mpiric: " : "libm:   ");
+	printf("%lf ns\n", (time_present - time_past) / BENCHMARK_RANGE * 1000.0);
+}
+
 // functions execution
 void arg_funcf64(FILE* fd, f64 (*f)(f64, f64), bool mpiric, f64 x)
 {
@@ -49,8 +146,13 @@ void arg_funcf64(FILE* fd, f64 (*f)(f64, f64), bool mpiric, f64 x)
 		fprintf(fd, "%lf ", f(i, x));
 	}
 
+#ifdef BENCHMARK
+	arg_benchmarkf64(f, mpiric, x);
+#endif
+
 	crt_end(fd, mpiric);
 }
+
 
 void funcf64(FILE* fd, f64 (*f)(f64), bool mpiric)
 {
@@ -60,6 +162,10 @@ void funcf64(FILE* fd, f64 (*f)(f64), bool mpiric)
 	{
 		fprintf(fd, "%lf ", f(i));
 	}
+
+#ifdef BENCHMARK
+	benchmarkf64(f, mpiric);
+#endif
 
 	crt_end(fd, mpiric);
 }
@@ -73,6 +179,10 @@ void arg_funcf32(FILE* fd, f32 (*f)(f32, f32), bool mpiric, f32 x)
 		fprintf(fd, "%f ", f(i, x));
 	}
 
+#ifdef BENCHMARK
+	arg_benchmarkf32(f, mpiric, x);
+#endif
+
 	crt_end(fd, mpiric);
 }
 
@@ -85,8 +195,13 @@ void funcf32(FILE* fd, f32 (*f)(f32), bool mpiric)
 		fprintf(fd, "%f ", f(i));
 	}
 
+#ifdef BENCHMARK
+	benchmarkf32(f, mpiric);
+#endif
+
 	crt_end(fd, mpiric);
 }
+
 // plotting types (one line, two lines, multiple lines for two exressions with arguments)
 void lone_plotf64(const char* name, f64 (*f)(f64))
 {

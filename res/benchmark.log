@@ -1,0 +1,288 @@
+
+abs
+mpiric: 36.865000 ns
+
+recip
+mpiric: 64.052000 ns
+libm:   47.923000 ns
+
+sqrt
+mpiric: 74.567000 ns
+libm:   47.540000 ns
+
+rsqrt
+mpiric: 83.059000 ns
+libm:   97.596000 ns
+
+round
+mpiric: 55.186000 ns
+libm:   41.922000 ns
+
+floor
+mpiric: 74.033000 ns
+libm:   36.291000 ns
+
+ceil
+mpiric: 73.277000 ns
+libm:   36.459000 ns
+
+trunc
+mpiric: 37.565000 ns
+libm:   36.592000 ns
+
+frac
+mpiric: 56.805000 ns
+
+trunc
+mpiric: 115.707000 ns
+libm:   133.186000 ns
+mpiric: 112.125000 ns
+libm:   133.314000 ns
+mpiric: 117.761000 ns
+libm:   145.962000 ns
+
+fmod
+mpiric: 74.379000 ns
+libm:   327.094000 ns
+mpiric: 74.894000 ns
+libm:   289.006000 ns
+mpiric: 73.092000 ns
+libm:   276.404000 ns
+
+sin
+mpiric: 102.641000 ns
+libm:   175.325000 ns
+
+cos
+mpiric: 129.571000 ns
+libm:   174.901000 ns
+
+tan
+mpiric: 247.622000 ns
+libm:   415.870000 ns
+
+asin
+mpiric: 179.300000 ns
+libm:   75.962000 ns
+
+acos
+mpiric: 215.763000 ns
+libm:   73.289000 ns
+
+atan
+mpiric: 75.049000 ns
+libm:   155.582000 ns
+
+atan2
+mpiric: 160.719000 ns
+libm:   210.504000 ns
+mpiric: 157.051000 ns
+libm:   215.885000 ns
+mpiric: 166.872000 ns
+libm:   219.152000 ns
+
+exp2
+mpiric: 88.678000 ns
+libm:   106.250000 ns
+
+log2
+mpiric: 97.452000 ns
+libm:   156.559000 ns
+
+exp
+mpiric: 124.164000 ns
+libm:   117.402000 ns
+
+log
+mpiric: 120.708000 ns
+libm:   171.600000 ns
+
+exp10
+mpiric: 124.515000 ns
+
+log10
+mpiric: 119.846000 ns
+
+pow
+mpiric: 235.669000 ns
+libm:   71.905000 ns
+mpiric: 237.106000 ns
+libm:   81.367000 ns
+mpiric: 234.225000 ns
+libm:   551.148000 ns
+
+sinh
+mpiric: 195.232000 ns
+libm:   109.102000 ns
+
+cosh
+mpiric: 189.835000 ns
+libm:   98.971000 ns
+
+tanh
+mpiric: 183.928000 ns
+libm:   42.437000 ns
+
+asinh
+mpiric: 257.238000 ns
+libm:   367.767000 ns
+
+acosh
+mpiric: 254.553000 ns
+libm:   368.009000 ns
+
+atanh
+mpiric: 176.607000 ns
+libm:   67.773000 ns
+
+erf
+mpiric: 161.166000 ns
+libm:   45.803000 ns
+
+erfc
+mpiric: 187.787000 ns
+libm:   46.963000 ns
+
+absf
+mpiric: 66.930000 ns
+
+recipf
+mpiric: 181.176000 ns
+libm:   112.258000 ns
+
+sqrtf
+mpiric: 188.017000 ns
+libm:   86.571000 ns
+
+rsqrtf
+mpiric: 180.823000 ns
+libm:   208.301000 ns
+
+roundf
+mpiric: 119.966000 ns
+libm:   80.236000 ns
+
+floorf
+mpiric: 148.657000 ns
+libm:   65.146000 ns
+
+ceilf
+mpiric: 149.180000 ns
+libm:   64.841000 ns
+
+truncf
+mpiric: 89.619000 ns
+libm:   65.604000 ns
+
+fracf
+mpiric: 116.278000 ns
+
+truncf
+mpiric: 230.381000 ns
+libm:   353.004000 ns
+mpiric: 226.803000 ns
+libm:   325.275000 ns
+mpiric: 236.680000 ns
+libm:   305.963000 ns
+
+fmodf
+mpiric: 169.190000 ns
+libm:   327.103000 ns
+mpiric: 165.506000 ns
+libm:   290.814000 ns
+mpiric: 176.034000 ns
+libm:   283.733000 ns
+
+sinf
+mpiric: 254.000000 ns
+libm:   254.310000 ns
+
+cosf
+mpiric: 288.167000 ns
+libm:   258.482000 ns
+
+tanf
+mpiric: 359.145000 ns
+libm:   2419.236000 ns
+
+asinf
+mpiric: 306.592000 ns
+libm:   85.274000 ns
+
+acosf
+mpiric: 335.987000 ns
+libm:   74.216000 ns
+
+atanf
+mpiric: 203.252000 ns
+libm:   311.418000 ns
+
+atan2f
+mpiric: 319.250000 ns
+libm:   321.133000 ns
+mpiric: 317.903000 ns
+libm:   354.952000 ns
+mpiric: 326.704000 ns
+libm:   363.495000 ns
+
+exp2f
+mpiric: 229.470000 ns
+libm:   58.778000 ns
+
+log2f
+mpiric: 212.351000 ns
+libm:   168.685000 ns
+
+expf
+mpiric: 260.602000 ns
+libm:   59.980000 ns
+
+logf
+mpiric: 243.529000 ns
+libm:   167.440000 ns
+
+exp10f
+mpiric: 262.536000 ns
+
+log10f
+mpiric: 244.311000 ns
+
+powf
+mpiric: 429.143000 ns
+libm:   269.516000 ns
+mpiric: 427.237000 ns
+libm:   268.882000 ns
+mpiric: 428.121000 ns
+libm:   270.627000 ns
+
+sinhf
+mpiric: 371.389000 ns
+libm:   101.332000 ns
+
+coshf
+mpiric: 368.378000 ns
+libm:   108.341000 ns
+
+tanhf
+mpiric: 366.865000 ns
+libm:   51.495000 ns
+
+asinhf
+mpiric: 440.757000 ns
+libm:   189.472000 ns
+
+acoshf
+mpiric: 441.947000 ns
+libm:   290.632000 ns
+
+atanhf
+mpiric: 331.361000 ns
+libm:   82.696000 ns
+
+erff
+mpiric: 348.774000 ns
+libm:   52.845000 ns
+
+erfcf
+mpiric: 377.867000 ns
+libm:   53.836000 ns
