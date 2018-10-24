@@ -4,8 +4,8 @@ portable fast math functions on the internet.
 Because its goal is to provide portable approximations,
 you won't find SIMD-based algorithms here.
 
-Currently most of the code here comes from [https://github.com/pmttavara/pt_math](pt_math).
-Another important source is the [https://hackersdelight.org](hacker's delight) website.
+Currently most of the code here comes from [pt_math](https://github.com/pmttavara/pt_math).
+Another important source is the [hacker's delight](https://hackersdelight.org) website.
 There are also a few functions from .
 
 The makefile targets include svg-graphs generation with `charter`
