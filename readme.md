@@ -6,7 +6,6 @@ you won't find SIMD-based algorithms here.
 
 Currently most of the code here comes from [pt_math](https://github.com/pmttavara/pt_math).
 Another important source is the [hacker's delight](https://hackersdelight.org) website.
-There are also a few functions from .
 
 The makefile targets include svg-graphs generation with `charter`
 and basic performance tests. You can find a copy of the resulting
