@@ -27,7 +27,7 @@ void plot_end(FILE* fd, const char* name)
 void crt_begin(FILE* fd)
 {
 	fprintf(fd, "plot:\n");
-	fprintf(fd, " x range: -10.0 10.0 0.1\n");
+	fprintf(fd, " x range: 0.1 10.0 0.1\n");
 	fprintf(fd, " y ");
 }
 
