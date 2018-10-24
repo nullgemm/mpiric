@@ -1,67 +1,68 @@
 # f64
-<img src="./res/graphs/abs.svg">
-<img src="./res/graphs/acosh.svg">
-<img src="./res/graphs/acos.svg">
-<img src="./res/graphs/asinh.svg">
-<img src="./res/graphs/asin.svg">
-<img src="./res/graphs/atan2.svg">
-<img src="./res/graphs/atanh.svg">
-<img src="./res/graphs/atan.svg">
-<img src="./res/graphs/ceil.svg">
-<img src="./res/graphs/cosh.svg">
-<img src="./res/graphs/cos.svg">
-<img src="./res/graphs/erfc.svg">
-<img src="./res/graphs/erf.svg">
-<img src="./res/graphs/erf10.svg">
-<img src="./res/graphs/erf2.svg">
-<img src="./res/graphs/exp.svg">
-<img src="./res/graphs/floor.svg">
-<img src="./res/graphs/fmod.svg">
-<img src="./res/graphs/frac.svg">
-<img src="./res/graphs/log10.svg">
-<img src="./res/graphs/log2.svg">
-<img src="./res/graphs/log.svg">
-<img src="./res/graphs/pow.svg">
-<img src="./res/graphs/recip.svg">
-<img src="./res/graphs/round.svg">
-<img src="./res/graphs/rsqrt.svg">
-<img src="./res/graphs/sinh.svg">
-<img src="./res/graphs/sin.svg">
-<img src="./res/graphs/sqrt.svg">
-<img src="./res/graphs/tanh.svg">
-<img src="./res/graphs/tan.svg">
-<img src="./res/graphs/trunc.svg">
+![result](test/test.svg)
+![result](./res/graphs/abs.svg)
+![result](./res/graphs/acosh.svg)
+![result](./res/graphs/acos.svg)
+![result](./res/graphs/asinh.svg)
+![result](./res/graphs/asin.svg)
+![result](./res/graphs/atan2.svg)
+![result](./res/graphs/atanh.svg)
+![result](./res/graphs/atan.svg)
+![result](./res/graphs/ceil.svg)
+![result](./res/graphs/cosh.svg)
+![result](./res/graphs/cos.svg)
+![result](./res/graphs/erfc.svg)
+![result](./res/graphs/erf.svg)
+![result](./res/graphs/erf10.svg)
+![result](./res/graphs/erf2.svg)
+![result](./res/graphs/exp.svg)
+![result](./res/graphs/floor.svg)
+![result](./res/graphs/fmod.svg)
+![result](./res/graphs/frac.svg)
+![result](./res/graphs/log10.svg)
+![result](./res/graphs/log2.svg)
+![result](./res/graphs/log.svg)
+![result](./res/graphs/pow.svg)
+![result](./res/graphs/recip.svg)
+![result](./res/graphs/round.svg)
+![result](./res/graphs/rsqrt.svg)
+![result](./res/graphs/sinh.svg)
+![result](./res/graphs/sin.svg)
+![result](./res/graphs/sqrt.svg)
+![result](./res/graphs/tanh.svg)
+![result](./res/graphs/tan.svg)
+![result](./res/graphs/trunc.svg)
 
 # f32
-<img src="./res/graphs/absf.svg">
-<img src="./res/graphs/acoshf.svg">
-<img src="./res/graphs/acosf.svg">
-<img src="./res/graphs/asinhf.svg">
-<img src="./res/graphs/asinf.svg">
-<img src="./res/graphs/atan2f.svg">
-<img src="./res/graphs/atanhf.svg">
-<img src="./res/graphs/atanf.svg">
-<img src="./res/graphs/ceilf.svg">
-<img src="./res/graphs/coshf.svg">
-<img src="./res/graphs/cosf.svg">
-<img src="./res/graphs/erfcf.svg">
-<img src="./res/graphs/erff.svg">
-<img src="./res/graphs/erf10f.svg">
-<img src="./res/graphs/erf2f.svg">
-<img src="./res/graphs/expf.svg">
-<img src="./res/graphs/floorf.svg">
-<img src="./res/graphs/fmodf.svg">
-<img src="./res/graphs/fracf.svg">
-<img src="./res/graphs/log10f.svg">
-<img src="./res/graphs/log2f.svg">
-<img src="./res/graphs/logf.svg">
-<img src="./res/graphs/powf.svg">
-<img src="./res/graphs/recipf.svg">
-<img src="./res/graphs/roundf.svg">
-<img src="./res/graphs/rsqrtf.svg">
-<img src="./res/graphs/sinhf.svg">
-<img src="./res/graphs/sinf.svg">
-<img src="./res/graphs/sqrtf.svg">
-<img src="./res/graphs/tanhf.svg">
-<img src="./res/graphs/tanf.svg">
-<img src="./res/graphs/truncf.svg">
+![result](./res/graphs/absf.svg)
+![result](./res/graphs/acoshf.svg)
+![result](./res/graphs/acosf.svg)
+![result](./res/graphs/asinhf.svg)
+![result](./res/graphs/asinf.svg)
+![result](./res/graphs/atan2f.svg)
+![result](./res/graphs/atanhf.svg)
+![result](./res/graphs/atanf.svg)
+![result](./res/graphs/ceilf.svg)
+![result](./res/graphs/coshf.svg)
+![result](./res/graphs/cosf.svg)
+![result](./res/graphs/erfcf.svg)
+![result](./res/graphs/erff.svg)
+![result](./res/graphs/erf10f.svg)
+![result](./res/graphs/erf2f.svg)
+![result](./res/graphs/expf.svg)
+![result](./res/graphs/floorf.svg)
+![result](./res/graphs/fmodf.svg)
+![result](./res/graphs/fracf.svg)
+![result](./res/graphs/log10f.svg)
+![result](./res/graphs/log2f.svg)
+![result](./res/graphs/logf.svg)
+![result](./res/graphs/powf.svg)
+![result](./res/graphs/recipf.svg)
+![result](./res/graphs/roundf.svg)
+![result](./res/graphs/rsqrtf.svg)
+![result](./res/graphs/sinhf.svg)
+![result](./res/graphs/sinf.svg)
+![result](./res/graphs/sqrtf.svg)
+![result](./res/graphs/tanhf.svg)
+![result](./res/graphs/tanf.svg)
+![result](./res/graphs/truncf.svg)
