@@ -1,6 +1,6 @@
-# mpiric maths
 ![logo](res/icons/mpiric_128.png)
 
+# mpiric maths
 This repository was created to collect the best
 portable fast math functions on the internet.
 Because its goal is to provide _portable_ approximations,
@@ -9,6 +9,7 @@ you won't find SIMD-based algorithms here.
 Currently most of the code here comes from [pt_math](https://github.com/pmttavara/pt_math).
 Another important source is the [hacker's delight](https://hackersdelight.org) website.
 
+# Testing
 You can easily make a testing executable which will generate svg
 graphics with `charter` and write some basic benchmarking logs.
 A copy of the resulting files can be found in the `res` folder,
@@ -24,10 +25,15 @@ Github seems to break svg files rendering, please open them
 independently in your browser by right-clicking on them and
 choosing "view image".
 
+# Using
 To clone this repository use the following command
 ```
 git clone --recurse-submodules https://github.com/cylgom/mpiric.git
 ```
 
+To use these functions you must include `cylgom.h` and `mpiric.h`.
+`mpiric.c` should also be compiled and linked with your program.
+
+# License
 Everything here is public domain work, except of course
 the `charter` submodule used to generate graphs.
