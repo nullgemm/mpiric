@@ -1,6 +1,6 @@
 ![logo](res/icons/mpiric_128.png)
 
-# mpiric maths
+# Mpiric maths
 This repository was created to collect the best
 portable fast math functions on the internet.
 Because its goal is to provide _portable_ approximations,
