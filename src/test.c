@@ -9,6 +9,12 @@
 #define BENCHMARK_RANGE 1000000.0
 #define BENCHMARK_RANGEF 1000000.0f
 
+f64 x_start = 0.1;
+f64 x_end = 10.0;
+
+f32 x_startf = 0.1;
+f32 x_endf = 10.0;
+
 // handles io during the plotting process
 void plot_begin(FILE** fd, const char* name)
 {
@@ -141,7 +147,7 @@ void arg_funcf64(FILE* fd, f64 (*f)(f64, f64), bool mpiric, f64 x)
 {
 	crt_begin(fd);
 
-	for (f64 i = 0.1; i <= 10.0; i += 0.1)
+	for (f64 i = x_start; i <= x_end; i += 0.1)
 	{
 		fprintf(fd, "%lf ", f(i, x));
 	}
@@ -158,7 +164,7 @@ void funcf64(FILE* fd, f64 (*f)(f64), bool mpiric)
 {
 	crt_begin(fd);
 
-	for (f64 i = 0.1; i <= 10.0; i += 0.1)
+	for (f64 i = x_start; i <= x_end; i += 0.1)
 	{
 		fprintf(fd, "%lf ", f(i));
 	}
@@ -174,7 +180,7 @@ void arg_funcf32(FILE* fd, f32 (*f)(f32, f32), bool mpiric, f32 x)
 {
 	crt_begin(fd);
 
-	for (f32 i = 0.1; i <= 10.0; i += 0.1)
+	for (f32 i = x_startf; i <= x_endf; i += 0.1)
 	{
 		fprintf(fd, "%f ", f(i, x));
 	}
@@ -190,7 +196,7 @@ void funcf32(FILE* fd, f32 (*f)(f32), bool mpiric)
 {
 	crt_begin(fd);
 
-	for (f32 i = 0.1; i <= 10.0; i += 0.1)
+	for (f32 i = x_startf; i <= x_endf; i += 0.1)
 	{
 		fprintf(fd, "%f ", f(i));
 	}
@@ -347,8 +353,14 @@ int main()
 	plotf64("sin", mpr_sin, sin);
 	plotf64("cos", mpr_cos, cos);
 	plotf64("tan", mpr_tan, tan);
+
+	x_start = -1.0;
+	x_end= 1.0;
 	plotf64("asin", mpr_asin, asin);
 	plotf64("acos", mpr_acos, acos);
+	x_start = 0.1;
+	x_end = 10.0;
+
 	plotf64("atan", mpr_atan, atan);
 	arg_plotf64("atan2", mpr_atan2, atan2);
 	plotf64("exp2", mpr_exp2, exp2);
@@ -381,8 +393,14 @@ int main()
 	plotf32("sinf", mpr_sinf, sinf);
 	plotf32("cosf", mpr_cosf, cosf);
 	plotf32("tanf", mpr_tanf, tanf);
+
+	x_startf = -1.0f;
+	x_endf = 1.0f;
 	plotf32("asinf", mpr_asinf, asinf);
 	plotf32("acosf", mpr_acosf, acosf);
+	x_startf = 0.1f;
+	x_endf = 10.0f;
+
 	plotf32("atanf", mpr_atanf, atanf);
 	arg_plotf32("atan2f", mpr_atan2f, atan2f);
 	plotf32("exp2f", mpr_exp2f, exp2f);
