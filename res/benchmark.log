@@ -1,288 +1,288 @@
 
 abs
-mpiric: 36.865000 ns
+mpiric: 30.406000 ns
 
 recip
-mpiric: 64.052000 ns
-libm:   47.923000 ns
+mpiric: 30.852000 ns
+libm:   44.203000 ns
 
 sqrt
-mpiric: 74.567000 ns
-libm:   47.540000 ns
+mpiric: 46.823000 ns
+libm:   43.999000 ns
 
 rsqrt
-mpiric: 83.059000 ns
-libm:   97.596000 ns
+mpiric: 32.172000 ns
+libm:   88.122000 ns
 
 round
-mpiric: 55.186000 ns
-libm:   41.922000 ns
+mpiric: 28.801000 ns
+libm:   28.650000 ns
 
 floor
-mpiric: 74.033000 ns
-libm:   36.291000 ns
+mpiric: 30.192000 ns
+libm:   28.449000 ns
 
 ceil
-mpiric: 73.277000 ns
-libm:   36.459000 ns
+mpiric: 30.474000 ns
+libm:   29.053000 ns
 
 trunc
-mpiric: 37.565000 ns
-libm:   36.592000 ns
+mpiric: 33.568000 ns
+libm:   28.436000 ns
 
 frac
-mpiric: 56.805000 ns
+mpiric: 32.349000 ns
 
 trunc
-mpiric: 115.707000 ns
-libm:   133.186000 ns
-mpiric: 112.125000 ns
-libm:   133.314000 ns
-mpiric: 117.761000 ns
-libm:   145.962000 ns
+mpiric: 30.296000 ns
+libm:   109.862000 ns
+mpiric: 28.542000 ns
+libm:   109.778000 ns
+mpiric: 47.141000 ns
+libm:   117.062000 ns
 
 fmod
-mpiric: 74.379000 ns
-libm:   327.094000 ns
-mpiric: 74.894000 ns
-libm:   289.006000 ns
-mpiric: 73.092000 ns
-libm:   276.404000 ns
+mpiric: 33.338000 ns
+libm:   304.611000 ns
+mpiric: 29.991000 ns
+libm:   265.124000 ns
+mpiric: 45.874000 ns
+libm:   253.351000 ns
 
 sin
-mpiric: 102.641000 ns
-libm:   175.325000 ns
+mpiric: 42.657000 ns
+libm:   152.434000 ns
 
 cos
-mpiric: 129.571000 ns
-libm:   174.901000 ns
+mpiric: 44.011000 ns
+libm:   152.768000 ns
 
 tan
-mpiric: 247.622000 ns
-libm:   415.870000 ns
+mpiric: 73.702000 ns
+libm:   374.059000 ns
 
 asin
-mpiric: 179.300000 ns
-libm:   75.962000 ns
+mpiric: 88.934000 ns
+libm:   62.983000 ns
 
 acos
-mpiric: 215.763000 ns
-libm:   73.289000 ns
+mpiric: 90.920000 ns
+libm:   66.036000 ns
 
 atan
-mpiric: 75.049000 ns
-libm:   155.582000 ns
+mpiric: 47.545000 ns
+libm:   131.187000 ns
 
 atan2
-mpiric: 160.719000 ns
-libm:   210.504000 ns
-mpiric: 157.051000 ns
-libm:   215.885000 ns
-mpiric: 166.872000 ns
-libm:   219.152000 ns
+mpiric: 74.727000 ns
+libm:   190.985000 ns
+mpiric: 72.027000 ns
+libm:   191.244000 ns
+mpiric: 89.555000 ns
+libm:   191.955000 ns
 
 exp2
-mpiric: 88.678000 ns
-libm:   106.250000 ns
+mpiric: 38.102000 ns
+libm:   88.245000 ns
 
 log2
-mpiric: 97.452000 ns
-libm:   156.559000 ns
+mpiric: 37.124000 ns
+libm:   132.831000 ns
 
 exp
-mpiric: 124.164000 ns
-libm:   117.402000 ns
+mpiric: 39.329000 ns
+libm:   106.994000 ns
 
 log
-mpiric: 120.708000 ns
-libm:   171.600000 ns
+mpiric: 34.289000 ns
+libm:   147.168000 ns
 
 exp10
-mpiric: 124.515000 ns
+mpiric: 38.440000 ns
 
 log10
-mpiric: 119.846000 ns
+mpiric: 36.475000 ns
 
 pow
-mpiric: 235.669000 ns
-libm:   71.905000 ns
-mpiric: 237.106000 ns
-libm:   81.367000 ns
-mpiric: 234.225000 ns
-libm:   551.148000 ns
+mpiric: 74.439000 ns
+libm:   66.017000 ns
+mpiric: 72.890000 ns
+libm:   75.352000 ns
+mpiric: 71.883000 ns
+libm:   502.407000 ns
 
 sinh
-mpiric: 195.232000 ns
-libm:   109.102000 ns
+mpiric: 50.960000 ns
+libm:   91.435000 ns
 
 cosh
-mpiric: 189.835000 ns
-libm:   98.971000 ns
+mpiric: 51.331000 ns
+libm:   85.823000 ns
 
 tanh
-mpiric: 183.928000 ns
-libm:   42.437000 ns
+mpiric: 51.300000 ns
+libm:   31.435000 ns
 
 asinh
-mpiric: 257.238000 ns
-libm:   367.767000 ns
+mpiric: 83.704000 ns
+libm:   337.192000 ns
 
 acosh
-mpiric: 254.553000 ns
-libm:   368.009000 ns
+mpiric: 83.299000 ns
+libm:   298.276000 ns
 
 atanh
-mpiric: 176.607000 ns
-libm:   67.773000 ns
+mpiric: 59.111000 ns
+libm:   54.322000 ns
 
 erf
-mpiric: 161.166000 ns
-libm:   45.803000 ns
+mpiric: 53.685000 ns
+libm:   34.664000 ns
 
 erfc
-mpiric: 187.787000 ns
-libm:   46.963000 ns
+mpiric: 59.320000 ns
+libm:   44.966000 ns
 
 absf
-mpiric: 66.930000 ns
+mpiric: 46.196000 ns
 
 recipf
-mpiric: 181.176000 ns
-libm:   112.258000 ns
+mpiric: 48.032000 ns
+libm:   43.866000 ns
 
 sqrtf
-mpiric: 188.017000 ns
-libm:   86.571000 ns
+mpiric: 46.248000 ns
+libm:   43.894000 ns
 
 rsqrtf
-mpiric: 180.823000 ns
-libm:   208.301000 ns
+mpiric: 48.087000 ns
+libm:   81.847000 ns
 
 roundf
-mpiric: 119.966000 ns
-libm:   80.236000 ns
+mpiric: 46.317000 ns
+libm:   50.047000 ns
 
 floorf
-mpiric: 148.657000 ns
-libm:   65.146000 ns
+mpiric: 44.768000 ns
+libm:   44.023000 ns
 
 ceilf
-mpiric: 149.180000 ns
-libm:   64.841000 ns
+mpiric: 45.701000 ns
+libm:   43.878000 ns
 
 truncf
-mpiric: 89.619000 ns
-libm:   65.604000 ns
+mpiric: 46.408000 ns
+libm:   43.920000 ns
 
 fracf
-mpiric: 116.278000 ns
+mpiric: 44.712000 ns
 
 truncf
-mpiric: 230.381000 ns
-libm:   353.004000 ns
-mpiric: 226.803000 ns
-libm:   325.275000 ns
-mpiric: 236.680000 ns
-libm:   305.963000 ns
+mpiric: 46.619000 ns
+libm:   322.934000 ns
+mpiric: 43.997000 ns
+libm:   284.764000 ns
+mpiric: 47.515000 ns
+libm:   280.369000 ns
 
 fmodf
-mpiric: 169.190000 ns
-libm:   327.103000 ns
-mpiric: 165.506000 ns
-libm:   290.814000 ns
-mpiric: 176.034000 ns
-libm:   283.733000 ns
+mpiric: 48.353000 ns
+libm:   299.457000 ns
+mpiric: 46.758000 ns
+libm:   266.458000 ns
+mpiric: 47.482000 ns
+libm:   251.759000 ns
 
 sinf
-mpiric: 254.000000 ns
-libm:   254.310000 ns
+mpiric: 55.439000 ns
+libm:   82.480000 ns
 
 cosf
-mpiric: 288.167000 ns
-libm:   258.482000 ns
+mpiric: 54.284000 ns
+libm:   76.579000 ns
 
 tanf
-mpiric: 359.145000 ns
-libm:   2419.236000 ns
+mpiric: 74.038000 ns
+libm:   2109.688000 ns
 
 asinf
-mpiric: 306.592000 ns
-libm:   85.274000 ns
+mpiric: 58.922000 ns
+libm:   70.072000 ns
 
 acosf
-mpiric: 335.987000 ns
-libm:   74.216000 ns
+mpiric: 63.871000 ns
+libm:   67.236000 ns
 
 atanf
-mpiric: 203.252000 ns
-libm:   311.418000 ns
+mpiric: 49.664000 ns
+libm:   103.180000 ns
 
 atan2f
-mpiric: 319.250000 ns
-libm:   321.133000 ns
-mpiric: 317.903000 ns
-libm:   354.952000 ns
-mpiric: 326.704000 ns
-libm:   363.495000 ns
+mpiric: 64.615000 ns
+libm:   148.381000 ns
+mpiric: 61.492000 ns
+libm:   167.088000 ns
+mpiric: 62.199000 ns
+libm:   171.082000 ns
 
 exp2f
-mpiric: 229.470000 ns
-libm:   58.778000 ns
+mpiric: 53.874000 ns
+libm:   44.739000 ns
 
 log2f
-mpiric: 212.351000 ns
-libm:   168.685000 ns
+mpiric: 49.077000 ns
+libm:   57.310000 ns
 
 expf
-mpiric: 260.602000 ns
-libm:   59.980000 ns
+mpiric: 50.342000 ns
+libm:   43.935000 ns
 
 logf
-mpiric: 243.529000 ns
-libm:   167.440000 ns
+mpiric: 47.859000 ns
+libm:   55.125000 ns
 
 exp10f
-mpiric: 262.536000 ns
+mpiric: 50.529000 ns
 
 log10f
-mpiric: 244.311000 ns
+mpiric: 47.178000 ns
 
 powf
-mpiric: 429.143000 ns
-libm:   269.516000 ns
-mpiric: 427.237000 ns
-libm:   268.882000 ns
-mpiric: 428.121000 ns
-libm:   270.627000 ns
+mpiric: 75.920000 ns
+libm:   109.398000 ns
+mpiric: 74.675000 ns
+libm:   109.389000 ns
+mpiric: 74.627000 ns
+libm:   109.313000 ns
 
 sinhf
-mpiric: 371.389000 ns
-libm:   101.332000 ns
+mpiric: 59.110000 ns
+libm:   90.613000 ns
 
 coshf
-mpiric: 368.378000 ns
-libm:   108.341000 ns
+mpiric: 58.794000 ns
+libm:   89.692000 ns
 
 tanhf
-mpiric: 366.865000 ns
-libm:   51.495000 ns
+mpiric: 61.754000 ns
+libm:   43.808000 ns
 
 asinhf
-mpiric: 440.757000 ns
-libm:   189.472000 ns
+mpiric: 79.608000 ns
+libm:   88.185000 ns
 
 acoshf
-mpiric: 441.947000 ns
-libm:   290.632000 ns
+mpiric: 79.591000 ns
+libm:   109.869000 ns
 
 atanhf
-mpiric: 331.361000 ns
-libm:   82.696000 ns
+mpiric: 57.604000 ns
+libm:   69.083000 ns
 
 erff
-mpiric: 348.774000 ns
-libm:   52.845000 ns
+mpiric: 59.487000 ns
+libm:   43.932000 ns
 
 erfcf
-mpiric: 377.867000 ns
-libm:   53.836000 ns
+mpiric: 63.701000 ns
+libm:   44.261000 ns

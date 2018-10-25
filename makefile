@@ -1,6 +1,6 @@
 NAME = mpiric_test
 CC = gcc
-FLAGS = -std=c99 -pedantic -g
+FLAGS = -std=c99 -pedantic -g -O3
 FLAGS+= -Wall -Wextra -Werror -Wno-strict-aliasing -Werror=vla
 FLAGS+= -DBENCHMARK
 BIND = bin
