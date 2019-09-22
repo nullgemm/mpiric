@@ -1,107 +1,107 @@
 #ifndef H_MPIRIC
 #define H_MPIRIC
 
-#include "cylgom.h"
+#include <stdint.h>
 
-i32 mpr_i32abs(i32 x);
-i64 mpr_i64abs(i64 x);
-f64 mpr_f64abs(f64 x);
-f32 mpr_f32abs(f32 x);
+int32_t mpr_i32abs(int32_t x);
+int64_t mpr_i64abs(int64_t x);
+double mpr_f64abs(double x);
+float mpr_f32abs(float x);
 
-f64 mpr_recip(f64 x);
-f32 mpr_recipf(f32 x);
+double mpr_recip(double x);
+float mpr_recipf(float x);
 
-f64 mpr_sqrt(f64 x);
-f32 mpr_sqrtf(f32 x);
+double mpr_sqrt(double x);
+float mpr_sqrtf(float x);
 
-f64 mpr_rsqrt(f64 x);
-f32 mpr_rsqrtf(f32 x);
+double mpr_rsqrt(double x);
+float mpr_rsqrtf(float x);
 
-f64 mpr_round(f64 x);
-f32 mpr_roundf(f32 x);
+double mpr_round(double x);
+float mpr_roundf(float x);
 
-f64 mpr_floor(f64 x);
-f32 mpr_floorf(f32 x);
+double mpr_floor(double x);
+float mpr_floorf(float x);
 
-f64 mpr_ceil(f64 x);
-f32 mpr_ceilf(f32 x);
+double mpr_ceil(double x);
+float mpr_ceilf(float x);
 
-f64 mpr_trunc(f64 x);
-f32 mpr_truncf(f32 x);
+double mpr_trunc(double x);
+float mpr_truncf(float x);
 
-f64 mpr_frac(f64 x);
-f32 mpr_fracf(f32 x);
+double mpr_frac(double x);
+float mpr_fracf(float x);
 
-f64 mpr_remainder(f64 x, f64 y);
-f32 mpr_remainderf(f32 x, f32 y);
+double mpr_remainder(double x, double y);
+float mpr_remainderf(float x, float y);
 
-f64 mpr_fmod(f64 x, f64 y);
-f32 mpr_fmodf(f32 x, f32 y);
+double mpr_fmod(double x, double y);
+float mpr_fmodf(float x, float y);
 
-f64 mpr_sin(f64 x);
-f32 mpr_sinf(f32 x);
+double mpr_sin(double x);
+float mpr_sinf(float x);
 
-f64 mpr_cos(f64 x);
-f32 mpr_cosf(f32 x);
+double mpr_cos(double x);
+float mpr_cosf(float x);
 
-f64 mpr_tan(f64 x);
-f32 mpr_tanf(f32 x);
+double mpr_tan(double x);
+float mpr_tanf(float x);
 
-f64 mpr_asin(f64 x);
-f32 mpr_asinf(f32 x);
+double mpr_asin(double x);
+float mpr_asinf(float x);
 
-f64 mpr_acos(f64 x);
-f32 mpr_acosf(f32 x);
+double mpr_acos(double x);
+float mpr_acosf(float x);
 
-f64 mpr_atan(f64 x);
-f32 mpr_atanf(f32 x);
+double mpr_atan(double x);
+float mpr_atanf(float x);
 
-f64 mpr_atan2(f64 y, f64 x);
-f32 mpr_atan2f(f32 y, f32 x);
+double mpr_atan2(double y, double x);
+float mpr_atan2f(float y, float x);
 
-f64 mpr_exp2(f64 x);
-f32 mpr_exp2f(f32 x);
+double mpr_exp2(double x);
+float mpr_exp2f(float x);
 
-f64 mpr_log2(f64 x);
-f32 mpr_log2f(f32 x);
+double mpr_log2(double x);
+float mpr_log2f(float x);
 
-f64 mpr_exp(f64 x);
-f32 mpr_expf(f32 x);
+double mpr_exp(double x);
+float mpr_expf(float x);
 
-f64 mpr_exp10(f64 x);
-f32 mpr_exp10f(f32 x);
+double mpr_exp10(double x);
+float mpr_exp10f(float x);
 
-f64 mpr_log(f64 x);
-f32 mpr_logf(f32 x);
+double mpr_log(double x);
+float mpr_logf(float x);
 
-f64 mpr_log10(f64 x);
-f32 mpr_log10f(f32 x);
+double mpr_log10(double x);
+float mpr_log10f(float x);
 
-f64 mpr_pow(f64 a, f64 b);
-f32 mpr_powf(f32 a, f32 b);
+double mpr_pow(double a, double b);
+float mpr_powf(float a, float b);
 
-f64 mpr_sinh(f64 x);
-f32 mpr_sinhf(f32 x);
+double mpr_sinh(double x);
+float mpr_sinhf(float x);
 
-f64 mpr_cosh(f64 x);
-f32 mpr_coshf(f32 x);
+double mpr_cosh(double x);
+float mpr_coshf(float x);
 
-f64 mpr_tanh(f64 x);
-f32 mpr_tanhf(f32 x);
+double mpr_tanh(double x);
+float mpr_tanhf(float x);
 
-f64 mpr_asinh(f64 x);
-f32 mpr_asinhf(f32 x);
+double mpr_asinh(double x);
+float mpr_asinhf(float x);
 
-f64 mpr_acosh(f64 x);
-f32 mpr_acoshf(f32 x);
+double mpr_acosh(double x);
+float mpr_acoshf(float x);
 
-f64 mpr_atanh(f64 x);
-f32 mpr_atanhf(f32 x);
+double mpr_atanh(double x);
+float mpr_atanhf(float x);
 
-f64 mpr_erf(f64 x);
-f32 mpr_erff(f32 x);
+double mpr_erf(double x);
+float mpr_erff(float x);
 
-f64 mpr_erfc(f64 x);
-f32 mpr_erfcf(f32 x);
+double mpr_erfc(double x);
+float mpr_erfcf(float x);
 
 #endif

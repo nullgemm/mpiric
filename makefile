@@ -1,31 +1,35 @@
-NAME = mpiric_test
+NAME = mpiric
 CC = gcc
 FLAGS = -std=c99 -pedantic -g -O3
 FLAGS+= -Wall -Wextra -Werror -Wno-strict-aliasing -Werror=vla
 FLAGS+= -DBENCHMARK
-BIND = bin
-SRCD = src
-SUBD = sub
-OBJD = obj
-RESD = res
 INCL = -I$(SRCD)
 LINK = -lm
 
-SRCS = $(SRCD)/test.c
+BIND = bin
+OBJD = obj
+SRCD = src
+SUBD = sub
+
+SRCS = $(SRCD)/main.c
 SRCS+= $(SRCD)/mpiric.c
+SRCS_OBJS := $(patsubst %.c,$(OBJD)/%.o,$(SRCS))
 
-OBJS:=$(patsubst $(SRCD)/%.c,$(OBJD)/$(SRCD)/%.o,$(SRCS))
+# aliases
+.PHONY: final
+final: $(BIND)/$(NAME) $(BIND)/charter_svg
 
-$(OBJD)/%.o:%.c
-	@echo "building source object $@"
+# generic compiling command
+$(OBJD)/%.o: %.c
+	@echo "building object $@"
 	@mkdir -p $(@D)
 	@$(CC) $(INCL) $(FLAGS) -c -o $@ $<
 
-.PHONY: $(BIND)/$(NAME)
-$(BIND)/$(NAME): $(OBJS) $(BIND)/charter_svg
-	@echo "compiling $@"
-	@mkdir -p $(BIND)
-	@$(CC) $(INCL) $(FLAGS) -o $(BIND)/$(NAME) $(OBJS) $(LINK)
+# final executable
+$(BIND)/$(NAME): $(SRCS_OBJS)
+	@echo "compiling executable $@"
+	@mkdir -p $(@D)
+	@$(CC) -o $@ $^ $(LINK)
 
 $(BIND)/charter_svg:
 	@echo "compiling $@"
@@ -47,3 +51,14 @@ run: $(BIND)/$(NAME)
 svg:
 	@echo "copying svg files"
 	@cp $(BIND)/*.svg $(RESD)/graphs/
+
+remotes:
+	@echo "registering remotes"
+	@git remote add github git@github.com:cylgom/$(NAME).git
+	@git remote add gitea ssh://git@git.cylgom.net:2999/cylgom/$(NAME).git
+
+gitea: github
+github:
+	@echo "sourcing submodules from https://github.com"
+	@git submodule sync
+	@git submodule update --init --recursive --remote
