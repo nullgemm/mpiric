@@ -10,6 +10,7 @@ BIND = bin
 OBJD = obj
 SRCD = src
 SUBD = sub
+RESD = res
 
 SRCS = $(SRCD)/main.c
 SRCS+= $(SRCD)/mpiric.c
